@@ -1,0 +1,166 @@
+.navbar {
+  background: #1b2024;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav>li {
+  float: none;
+  display: inline-block;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+  padding-top: 60px;
+}
+
+.icon {
+  margin-bottom: 1.2rem;
+  color: #f2f2f2;
+}
+
+.dropbtn {
+  background-color: #1b2024;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn2 {
+  background-color: #A10505;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px;
+  text-align: left;
+  text-align-last: start;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #F8ECEC
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #1b2024;
+}
+
+.outline2 {
+  background-color: #A10505;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  width: auto;
+  margin: 50px;
+  padding: 30px;
+}
+
+.cow {
+  background: url("https://sun9-29.userapi.com/impg/s0rrXsctPAfgTJC4yerpp1P8Q43uSmGJf-NDLw/0KAAvQLQkLU.jpg?size=1280x97&quality=96&sign=546d51eb0fe3bc5513a9d888286a3519&type=album") 100% 100% no-repeat;
+  background-size: cover;
+  /* Путь к фоновому изображению */
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  width: auto;
+  margin: 50px;
+  padding: 30px;
+}
+
+.salesBanner-header__tape {
+  line-height: calc(1.5em + 8px);
+  padding: 4px 0;
+
+
+}
+
+.tlbAWm8 {
+  border-top: 1px solid #eee;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+._2S9UgOW {
+  margin: 20px 0 20px 20px;
+  padding: 0 20px 30px 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-left: 1px solid #999;
+  text-align: left;
+  overflow: hidden;
+}
+
+._3cqbUhI:not(:first-child) {
+  margin-left: 36px;
+}
+
+span._3cqbUhI {}
+
+.card-title {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align-last: center;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align-last: center;
+}
